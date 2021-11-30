@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Setup Node.js environment - HOW IS THIS SO FAST?
+      - name: Setup Node.js
         uses: actions/setup-node@v2.5.0
 
       # Runs a set of commands using the runners shell
@@ -37,7 +37,7 @@ jobs:
           npm install
           node index.js
 
-      - name: Copy a folder to s3
+      - name: upload leaderboard image to s3
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.S3_ACCESS_KEY_ID }}
