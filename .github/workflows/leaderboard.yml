@@ -32,5 +32,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd $GITHUB_WORKSPACE/puppeteer
-          npm install
-          node index.js
+          env
+          # npm install
+          # node index.js
