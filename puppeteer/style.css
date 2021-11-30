@@ -1,0 +1,40 @@
+p {
+  display: none;
+}
+#sidebar {
+  display: none !important;
+}
+header {
+  display: none;
+}
+
+body {
+  background: white;
+  color: #333;
+}
+
+.privboard-delbtn {
+  display: none;
+}
+.privboard-star-both {
+  color: #ded10b;
+  font-weight: bold;
+
+}
+
+.privboard-star-firstonly{
+  color: #aaa;
+  font-weight: bold;
+}
+
+
+.privboard-star-unlocked {
+  color: #ddd;
+}
+
+.supporter-badge{
+  color: #c90;
+}
+a {
+  color: #333;
+}
