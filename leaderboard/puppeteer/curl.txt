@@ -1,0 +1,1 @@
+curl "https://adventofcode.com/2020/leaderboard/private/view/84292" -H 'cookie: session=53616c7465645f5fbcc6f52ecca67feae4ab289be96e62279e3c59f440d8b1fee2840eec7bc542afaac534b20fd6a02c' -O
