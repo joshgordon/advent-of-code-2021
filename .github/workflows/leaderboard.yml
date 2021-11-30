@@ -6,7 +6,7 @@ name: build leaderboard image
 on:
   schedule:
     # twice an hour
-    - cron: "26,56 45 * * *"
+    - cron: "26,56 * * * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
