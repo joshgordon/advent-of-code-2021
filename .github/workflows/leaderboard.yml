@@ -33,3 +33,4 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/puppeteer
           npm install
+          node index.js
