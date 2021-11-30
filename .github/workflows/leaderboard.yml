@@ -46,4 +46,4 @@ jobs:
           aws_secret_access_key: ${{ secrets.S3_SECRET_ACCESS_KEY }}
           source: "./output/full.png"
           dest: "s3://visionist-advent-of-code/leaderboard2021.png"
-          flags: --acl-public --add-header="Cache-Control:no-cache"
+          flags: --acl public-read --add-header="Cache-Control:no-cache"
